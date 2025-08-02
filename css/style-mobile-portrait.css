@@ -1,0 +1,60 @@
+.menu {
+    display: none;
+}
+
+
+.banner {
+    background-image: url(../images/banner-mobile.jpg);
+    min-height: 638px;
+    width: 100%;
+}
+.banner-content {
+padding: 43px 35px 124px;
+}
+
+.main-title {
+    font-size: 26px;
+    width: 100%;
+    margin: 44px 0;
+    line-height: 1.5;
+}
+
+.trends {
+ 
+    width: 100%;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.trends-content {
+   display: block;
+
+}
+
+.trend-article {
+    width: 100%;
+    margin: 3px 0;
+}
+.content-container {
+    display: block;
+}
+
+.post {
+    flex-direction: column;
+    width: 100%;
+}
+
+.shop-content {
+        flex-direction: column;
+    width: 100%;
+}
+
+.shop-prouct-card {
+    width: 100%;
+}
+
+.social {
+    width: 100%;
+}
