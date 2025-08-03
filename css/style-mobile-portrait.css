@@ -48,6 +48,12 @@
   .trends-title::after {
         margin-top: 11px;
   }
+
+  .trend {
+
+    padding: 28px;
+    margin: 16px;
+  }
   .trends-content {
     flex-direction: column;
     height: auto;
@@ -56,8 +62,9 @@
   
   .trend-article {
     width: 100%;
-    margin-bottom: 4px;
-    min-height: 232px;
+   
+    height: 232px;
+    padding: 0;
   }
   .trend-name {
     font-size: 16px;
