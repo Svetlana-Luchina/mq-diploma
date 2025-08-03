@@ -909,7 +909,6 @@ input::placeholder {
 }
 
 .text-area {
-  resize: none;
   width: 330px;
   height: 130px;
   background-color: #f4f7f6;
