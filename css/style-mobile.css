@@ -135,3 +135,9 @@
         width: 100%;
     }
 }
+
+@media (orientation: landscape) {
+    .menu{
+        display: none;
+    }
+}
