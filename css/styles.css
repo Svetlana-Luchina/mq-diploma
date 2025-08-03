@@ -715,6 +715,7 @@ input::placeholder {
     max-width: 100%;
     height: 204px;
     background-color: grey;
+    object-fit: cover;
 }
 
 .prouct-content {

@@ -75,6 +75,11 @@
         width: 100%;
     }
 
+    .side-title::after {
+        left: 42%;
+        margin-left: 0;
+    }
+
     .post {
         flex-direction: column;
         margin-top: 30px;
@@ -98,14 +103,13 @@
 
     .shop-content {
         flex-direction: column;
-        width: 70%;
+        width: 100%;
         padding: 0;
         gap: 30px;
     }
 
     .shop-prouct-card {
-        width: 100%;
-        width: 100%;
+        width: 330px;
         margin: 29px 56px 25px;
     }
 
@@ -186,13 +190,15 @@
     }
 
     .trends-content {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: auto;
         width: 100%;
+        justify-content: space-between;
     }
 
     .trend-article {
-        width: 100%;
+        width: 49%;
         height: 232px;
         padding: 0;
     }
@@ -211,6 +217,11 @@
     .main-content,
     .side-bar {
         width: 100%;
+    }
+
+    .side-title::after {
+        left: 44%;
+        margin-left: 0;
     }
 
     .post {
@@ -235,16 +246,20 @@
     }
 
     .shop-content {
-        flex-direction: column;
-        width: 70%;
-        padding: 0;
-        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 35px;
+        justify-content: space-between;
+        padding: 32px;
     }
 
     .shop-prouct-card {
-        width: 100%;
-        width: 100%;
-        margin: 29px 56px 25px;
+        width: 46%;
+    }
+
+    .prouct-content {
+        outline-offset: 10px;
     }
 
     .social {
