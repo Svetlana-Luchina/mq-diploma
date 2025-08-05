@@ -505,7 +505,6 @@ input::placeholder {
     font-weight: 700;
 
     color: #b59f5b;
-    vertical-align: super;
     line-height: 1;
     position: relative;
     bottom: 4px;
