@@ -13,7 +13,6 @@
         width: 100%;
     }
 
-
     .logo-image {
         padding-top: 220px;
         width: 100%;
@@ -106,10 +105,11 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .shop-content {
         flex-direction: column;
         width: 100%;
-      
+
         gap: 30px;
     }
 
@@ -148,12 +148,13 @@
     .search-field {
         width: 100%;
     }
+
     .burger {
         display: block;
         cursor: pointer;
         z-index: 1;
         align-self: end;
-    } 
+    }
 
 }
 
@@ -216,7 +217,7 @@
     }
 
     .trend-article {
-         width: calc(50% - 2px);
+        width: calc(50% - 2px);
         height: 232px;
         padding: 0;
     }
@@ -260,16 +261,17 @@
         margin: 15px 0;
     }
 
-     .shop {
+    .shop {
         width: 100%;
         box-sizing: border-box;
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .shop-content {
         flex-direction: column;
         width: 100%;
-      
+
         gap: 30px;
     }
 
@@ -278,7 +280,7 @@
         margin: auto;
         margin-top: 10px;
     }
-    
+
     .prouct-content {
         outline-offset: 10px;
     }
@@ -312,11 +314,12 @@
     .search-field {
         width: 100%;
     }
-  .burger {
+
+    .burger {
         display: block;
         cursor: pointer;
         z-index: 1;
         align-self: end;
-    } 
+    }
 
 }

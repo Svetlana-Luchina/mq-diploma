@@ -5,7 +5,6 @@
 ul {
     margin: 0;
     padding: 0;
-
     list-style: none;
 }
 
@@ -37,25 +36,20 @@ button {
 
 .visually-hidden {
     position: absolute;
-
     overflow: hidden;
     clip: rect(0 0 0 0);
-
     width: 1px;
     height: 1px;
     margin: -1px;
     padding: 0;
-
     border: 0;
 }
 
 .banner {
     position: relative;
-
     display: flex;
     align-items: center;
     flex-direction: column;
-
     margin: auto;
     padding: 28px 15px 125px 15px;
     background-color: #666;
@@ -71,12 +65,9 @@ button {
     right: 0;
     bottom: 0;
     left: 0;
-
     width: 100%;
     height: 100%;
-
     content: "";
-
     opacity: 0.6;
     background-color: #000;
 }
@@ -85,22 +76,18 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     width: 1170px;
-
 }
 
 .logo-image {
     position: relative;
     z-index: 1;
-
     height: 40px;
 }
 
 .menu-list {
     position: relative;
     z-index: 1;
-
     display: flex;
 }
 
@@ -111,7 +98,6 @@ button {
 .menu-link {
     text-align: center;
     text-transform: uppercase;
-
     color: #fff;
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 13px;
@@ -127,15 +113,12 @@ button {
     font-size: 45px;
     font-weight: 700;
     line-height: 1.7;
-
     position: relative;
     z-index: 1;
-
     width: 690px;
     padding-top: 100px;
     text-align: center;
     text-transform: uppercase;
-
     color: #fff;
 }
 
@@ -145,8 +128,6 @@ button {
     padding: 0 15px;
     width: 1170px;
     margin: auto;
-
-
 }
 
 .main-content {
@@ -155,13 +136,11 @@ button {
 
 .post {
     display: flex;
-
     margin-top: 60px;
 }
 
 .post-picture {
     width: 381px;
-
     background-color: #eff6f1;
 }
 
@@ -183,9 +162,7 @@ button {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 700;
-
     text-transform: uppercase;
-
     color: #b59f5b;
 }
 
@@ -198,11 +175,8 @@ button {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.2;
-
     margin-top: 6px;
-
     text-transform: uppercase;
-
     color: #0f0d0e;
 }
 
@@ -212,7 +186,6 @@ button {
 
 .post-info {
     display: flex;
-
     margin-top: 29px;
     margin-bottom: 45px;
 }
@@ -221,9 +194,7 @@ button {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
-
     margin-right: 13px;
-
     color: #888;
 }
 
@@ -231,7 +202,6 @@ button {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 700;
-
     color: #000;
 }
 
@@ -240,7 +210,6 @@ button {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.4;
-
     color: #0f0d0e;
 }
 
@@ -256,10 +225,8 @@ button {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 700;
-
     text-align: center;
     text-transform: uppercase;
-
     color: #0f0d0e;
 }
 
@@ -276,7 +243,6 @@ button {
 
 .new-post {
     display: flex;
-
     margin-bottom: 22px;
 }
 
@@ -287,7 +253,6 @@ button {
 .new-post-picture {
     width: 70px;
     height: 70px;
-
     background-color: #f4f7f6;
 }
 
@@ -299,9 +264,7 @@ button {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 400;
-
     display: flex;
-
     opacity: 0.5;
     color: #000;
 }
@@ -311,9 +274,7 @@ button {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.2;
-
     text-transform: uppercase;
-
     color: #000;
 }
 
@@ -336,19 +297,16 @@ input::placeholder {
 }
 
 .search-field {
-width: 100%;
+    width: 100%;
 }
 
 .search-text {
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 13px;
     font-weight: 400;
-
     display: flex;
-
     width: 100%;
     height: 48px;
-
     color: #000;
     border: none;
     background-color: #f4f7f6;
@@ -358,7 +316,6 @@ width: 100%;
 
 .search-text:focus {
     display: flex;
-
     outline: 1px solid #b59f5b;
     outline-offset: -1px;
 }
@@ -366,7 +323,6 @@ width: 100%;
 .search-button {
     width: 48px;
     height: 48px;
-
     border: none;
     background-color: #b59f5b;
     background-image: url(../svg/search.svg);
@@ -374,7 +330,6 @@ width: 100%;
     background-position: center;
     background-size: 18px;
 }
-
 
 .search-button:hover {
     background-color: #323232;
@@ -398,16 +353,12 @@ width: 100%;
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 13px;
     font-weight: 400;
-
     display: flex;
-
     width: 100%;
     height: 49px;
-
     color: #000;
     border: none;
     background-color: #f4f7f6;
-
     padding: 0 10px;
     box-sizing: border-box;
 }
@@ -421,13 +372,10 @@ width: 100%;
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 14px;
     font-weight: 700;
-
     width: 100%;
     height: 49px;
     margin-top: 17px;
-
     text-transform: uppercase;
-
     color: #fff;
     border: none;
     background-color: #b59f5b;
@@ -445,7 +393,6 @@ width: 100%;
 .tag-list {
     display: flex;
     flex-wrap: wrap;
-
     margin-top: 35px;
 }
 
@@ -453,13 +400,10 @@ width: 100%;
     font-family: "OpenSans", "Arial", sans-serif;
     font-size: 12px;
     font-weight: 700;
-
     margin-right: 6px;
     margin-bottom: 6px;
     padding: 4px 13px;
-
     text-transform: uppercase;
-
     color: #0f0d0e;
     border: 3px solid #eee;
 }
