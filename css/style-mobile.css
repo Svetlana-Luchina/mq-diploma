@@ -119,6 +119,20 @@
         margin-top: 10px;
     }
 
+    .prouct-pic {
+    display: block;
+    width: 100%;
+    height: 284px;
+    background-color: grey;
+    object-fit: cover;
+}
+
+    .prouct-img {
+    width: 100%;
+    height: 284px;
+    object-fit: cover;
+    }
+
     .social {
         width: 100%;
     }
@@ -279,6 +293,19 @@
         width: 100%;
         margin: auto;
         margin-top: 10px;
+    }
+    .prouct-pic {
+    display: block;
+    width: 100%;
+    height: 284px;
+    background-color: grey;
+    object-fit: cover;
+}
+
+    .prouct-img {
+    width: 100%;
+    height: 284px;
+    object-fit: cover;
     }
 
     .prouct-content {
